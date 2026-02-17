@@ -1,18 +1,13 @@
-// Assuming the original file content is fetched and formatted correctly
-// src/App.jsx
+// Other existing code
 
-// Your existing imports may go here
+// Line 96 - Modify fmt function
+const optionsHour1 = { hour: 'numeric', minute: 'numeric', hour12: false, timeStyle: 'medium' };
+const formattedTime1 = new Intl.DateTimeFormat('en-US', optionsHour1).format(date1);
 
-function App() {
-    // ... other code ...
+// Other existing code
 
-    // Line 96 update
-    const formattedTime1 = new Date().toLocaleString('en-US', { hour12: false, timeStyle: 'medium' });
+// Line 315 - Modify fmt function
+const optionsHour2 = { hour: 'numeric', minute: 'numeric', hour12: false, timeStyle: 'medium' };
+const formattedTime2 = new Intl.DateTimeFormat('en-US', optionsHour2).format(date2);
 
-    // Line 315 update
-    const formattedTime2 = new Date().toLocaleString('en-US', { hour12: false, timeStyle: 'medium' });
-
-    // ... other code ...
-}
-
-export default App;
+// Other existing code
